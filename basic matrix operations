@@ -1,0 +1,18 @@
+disp("Basic operations on Matrices demonstrated with help of two Matrices:-")
+
+disp("Matrix 1:")
+matrix_1 = [1,2,3;4,5,6;7,8,9]
+
+disp("Matrix 2:")
+matrix_2 = [9,8,7;6,5,4;3,2,1]
+
+disp("Addition of Matrix 1 & 2:")
+sum = (matrix_1 + matrix_2)
+
+disp("Subtraction of Matrix 1 & 2:")
+difference = (matrix_1 - matrix_2)
+
+disp("Scalar Multiplication of Matrix 1 & 2:")
+% as k is the scalar element in scalar multiplication, let's say
+k = 10
+scalar_multiple = k * (matrix_1)
